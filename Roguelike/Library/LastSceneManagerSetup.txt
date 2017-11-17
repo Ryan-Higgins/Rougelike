@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Roguelike.unity
+  isLoaded: 1
+  isActive: 1
