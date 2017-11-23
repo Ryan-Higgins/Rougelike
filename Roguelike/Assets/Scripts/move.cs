@@ -17,19 +17,13 @@ public class move : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.D) && tr.position == pos) {
 			pos += Vector3.right;
-		} else if (Input.GetKeyDown (KeyCode.A) && tr.position == pos) {
+		} else if (Input.GetKeyDown (KeyCode.A)) {
 			pos += Vector3.left;
-		} else if (Input.GetKeyDown (KeyCode.W) && tr.position == pos) {
+		} else if (Input.GetKeyDown (KeyCode.W)) {
 			pos += Vector3.up;
-		} else if (Input.GetKeyDown (KeyCode.S) && tr.position == pos) {
+		} else if (Input.GetKeyDown (KeyCode.S)) {
 			pos += Vector3.down;
 		} 
-
 		transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
-	}   
-
-	void OnTriggerEnter2D (Collider2D other) {
-		
-		}
 	}
-
+}
