@@ -52,12 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\attack.cs" />
+     <Compile Include="Assets\Scripts\fireTrap.cs" />
      <Compile Include="Assets\Scripts\jump.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Scripts\player.cs" />
      <Compile Include="Assets\Scripts\RandomPrefabGenerator.cs" />
      <Compile Include="Assets\Scripts\roomSpawn.cs" />
      <Compile Include="Assets\Scripts\SimpleLevelGenerator.cs" />
-     <Compile Include="Assets\trapSpawn.cs" />
+     <Compile Include="Assets\Scripts\trapSpawn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
