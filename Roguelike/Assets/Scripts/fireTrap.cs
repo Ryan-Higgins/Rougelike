@@ -5,21 +5,36 @@ using UnityEngine;
 public class fireTrap : MonoBehaviour {
 
 	GameObject player;
-	public player playerHealth;
-
+	public player myPlayer;
+	public int count;
+	const float damage = .02f;
 
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.Find ("Player");
-		playerHealth = player.GetComponent<player> ();
+		myPlayer = player.GetComponent<player> ();
+		count = 0;
 	}
-
-	// Update is called once per frame
+		
 	void OnTriggerEnter2D (Collider2D entity) {
 		if (entity.tag == "Player") {
-			playerHealth.health -= 1;
+			myPlayer.isBurning = true;
 			gameObject.SetActive (false);
+		}
+	}
+
+	void Update() {
+		if (myPlayer.isBurning == true && count < 480) {
+			myPlayer.health -= damage * Time.deltaTime; 
+			count++;
+		} else {
+			myPlayer.isBurning = false;
+			count = 0;
+		}
+
+		if (!myPlayer.isBurning) {
+			count = 0;
 		}
 	}
 }

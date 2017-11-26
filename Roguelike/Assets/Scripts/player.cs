@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class player : MonoBehaviour {
-	public int health;
+	public float health;
+	public bool isBurning;
+	public bool isWet;
 
 	// Use this for initialization
 	void Start () {
-		health = 10;	
+		health = 10f;	
+		isBurning = false;
+		isWet = false;
 	}
 }

@@ -241,15 +241,15 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - m_RefCount: 2
-    m_Data: {r: 0.86045504, g: 0.49881744, b: 0.6103422, a: 1}
+    m_Data: {r: 0.78105336, g: 0.43326774, b: 0.4584657, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.94216216, g: 0.6224949, b: 0.70729613, a: 1}
+    m_Data: {r: 0.9945718, g: 0.6668656, b: 0.67334735, a: 1}
   - m_RefCount: 0
-    m_Data: {r: 1.9254804e-36, g: 0, b: 21.407335, a: 1e-45}
+    m_Data: {r: 1.4580679e-36, g: 0, b: 21.407335, a: 1e-45}
   - m_RefCount: 2
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.76505315, g: 0.36065596, b: 0.38003767, a: 1}
+    m_Data: {r: 0.95163363, g: 0.40459162, b: 0.45375165, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -3, y: -1, z: 0}
@@ -279,8 +279,8 @@ Tilemap:
   - serializedVersion: 1
     m_DirtyIndex: 1
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 1
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
