@@ -120,7 +120,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1013290419344718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: -20, z: 1}
+  m_LocalPosition: {x: 20, y: 20, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4636299888105206}
@@ -147,6 +147,7 @@ MonoBehaviour:
   traps:
   - {fileID: 1276833258257540, guid: 063ffaec17863d842b5e7f6761c204c8, type: 2}
   - {fileID: 1135285570924090, guid: c7fb0375c418e244fa1b4c0126e96a55, type: 2}
+  - {fileID: 1708836171081260, guid: 82bdcc154e526b1429da0eb41d3e1707, type: 2}
 --- !u!483693784 &3664157345653672082
 TilemapRenderer:
   m_ObjectHideFlags: 1
