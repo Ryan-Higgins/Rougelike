@@ -22,8 +22,9 @@ GameObject:
   - component: {fileID: 212625072960068912}
   - component: {fileID: 114274762725433622}
   - component: {fileID: 50515442921897162}
-  - component: {fileID: 61714613186749540}
-  - component: {fileID: 114068529032745420}
+  - component: {fileID: 114818685295112488}
+  - component: {fileID: 61322333582694654}
+  - component: {fileID: 114493211320822070}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -37,8 +38,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1708836171081260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.38, y: -3.28, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: -20, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,8 +64,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &61714613186749540
+  m_Constraints: 4
+--- !u!61 &61322333582694654
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -89,18 +90,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114068529032745420
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1708836171081260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e78e98fccddcc8468eba6e4eb08447c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  test: 0
 --- !u!114 &114274762725433622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -116,6 +105,35 @@ MonoBehaviour:
   ySpeed: 0
   direction: 0
   speedSet: 0
+--- !u!114 &114493211320822070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708836171081260}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1eec140a28e694b91b42fb5cc4d17e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpeed: 0
+  ySpeed: 0
+  direction: 0
+  speedSet: 0
+  RbPlayer: {fileID: 0}
+  minimumPlayerDistance: 5
+--- !u!114 &114818685295112488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708836171081260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e78e98fccddcc8468eba6e4eb08447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
 --- !u!212 &212625072960068912
 SpriteRenderer:
   m_ObjectHideFlags: 1

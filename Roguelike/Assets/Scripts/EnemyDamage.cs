@@ -15,11 +15,15 @@ public class EnemyDamage : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void OnCollisionEnter2D (Collision2D entity) {
-		test = true;
+	void OnCollisionEnter2D (Collision2D coll) {
+
+		if (coll.gameObject.tag == "Player") {
+
+			test = true;
 
 			myPlayer.health -= 2;
 			gameObject.SetActive (false);
 
+		}
 	}
 }
