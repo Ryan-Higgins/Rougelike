@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LerpRaySingleMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\attack.cs">
     <Files>
       <File FileName="Assets\Scripts\roomSpawn.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\move.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\fireTrap.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\player.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\trapSpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyMove.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\waterTrap.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LerpRaySingleMove.cs" Line="189" Column="57" />
-      <File FileName="..\..\..\..\Documents\Roguelike\Assets\SCRIPTS\PlayerRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\attack.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

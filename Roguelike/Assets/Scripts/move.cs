@@ -4,26 +4,31 @@ using UnityEngine;
 
 public class move : MonoBehaviour {
 
-	private float speed = 2.0f;
-	private Vector3 pos;
-	private Transform tr;
+	public float speed;
+	Rigidbody2D myRB;
+	float h;
+	float v;
 
 	void Start() {
-		pos = transform.position;
-		tr = transform;
+		myRB = GetComponent<Rigidbody2D> ();
 	}
 
-	void Update() {
+	void FixedUpdate() {
 
-		if (Input.GetKeyDown (KeyCode.D) && tr.position == pos) {
-			pos += Vector3.right;
-		} else if (Input.GetKeyDown (KeyCode.A)) {
-			pos += Vector3.left;
-		} else if (Input.GetKeyDown (KeyCode.W)) {
-			pos += Vector3.up;
-		} else if (Input.GetKeyDown (KeyCode.S)) {
-			pos += Vector3.down;
-		} 
-		transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
+		h = Input.GetAxis ("Horizontal");
+		v = Input.GetAxis ("Vertical");
+
+		Vector2 movement = new Vector2 (h, v);
+		myRB.AddForce (movement * speed);
+
+		if (Input.GetKey (KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {
+			transform.rotation = Quaternion.Euler (0, 0, 90);
+		} else if (Input.GetKey (KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {
+			transform.rotation = Quaternion.Euler (0, 0, 270);
+		} else if (Input.GetKey (KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) {
+			transform.rotation = Quaternion.Euler (0, 0, 0);
+		} else if (Input.GetKey (KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) {
+			transform.rotation = Quaternion.Euler(0,0,180);
+		}
 	}
 }
