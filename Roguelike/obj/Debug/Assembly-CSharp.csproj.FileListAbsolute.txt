@@ -36,3 +36,83 @@ C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\Temp\bin\Debug\UnityEn
 C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.dll
 C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.pdb
+G:\Repositories\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+G:\Repositories\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\nunit.framework.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEditor.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Analytics.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.HoloLens.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Networking.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Purchasing.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.TestRunner.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Timeline.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\ExCSS.Unity.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.DataContract.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.UNetWeaver.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEditor.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UI.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Networking.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.TestRunner.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\nunit.framework.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Timeline.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+G:\Repositories\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Facebook.Unity.Settings.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Purchasing.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Timeline.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\ExCSS.Unity.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\Vuforia.UnityExtensions.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.Timeline.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\Temp\bin\Debug\Facebook.Unity.Settings.dll
