@@ -14,5 +14,6 @@ public class attack : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Space)) {
 			Destroy (gameObject);
 		}
+		
 	}
 }
