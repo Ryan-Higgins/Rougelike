@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\fireTrap.cs" />
      <Compile Include="Assets\Scripts\jump.cs" />
+     <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\LerpRaySingleMove.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\player.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Scripts\SimpleLevelGenerator.cs" />
      <Compile Include="Assets\Scripts\trapSpawn.cs" />
      <Compile Include="Assets\Scripts\waterTrap.cs" />
+     <Compile Include="Assets\TrapDoor.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/Admin/Documents/Repositeries/Rougelike/Roguelike/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
