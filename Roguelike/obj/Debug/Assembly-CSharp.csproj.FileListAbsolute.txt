@@ -116,3 +116,4 @@ C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembl
 C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.dll
 C:\Users\Jonathan\Desktop\roguelike github\Rougelike\Roguelike\obj\Debug\Assembly-CSharp.pdb
 C:\Users\Admin\Documents\Repositeries\Rougelike\Roguelike\Temp\bin\Debug\Facebook.Unity.Settings.dll
+G:\Repositories\Rougelike\Roguelike\Temp\bin\Debug\Facebook.Unity.Settings.dll

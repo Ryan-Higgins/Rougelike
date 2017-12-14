@@ -22,6 +22,7 @@ public class EnemyDamage : MonoBehaviour {
 			test = true;
 
 			myPlayer.health -= 2;
+			myPlayer.enemiesKilled += 1;
 			gameObject.SetActive (false);
 
 		}

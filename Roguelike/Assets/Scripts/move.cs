@@ -14,16 +14,21 @@ public class move : MonoBehaviour {
 	bool stab;
 	public bool showObject;
 	public GameObject objectToShow;
+	GameObject player;
+	player myPlayer;
 
 	void Start() {
 		myRB = GetComponent<Rigidbody2D> ();
 		anim = GetComponentInChildren<Animator>();
 		//StartCoroutine(WaitCoroutine());
+		player = GameObject.Find("Player");
+		myPlayer = player.GetComponent<player> ();
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Wall" && stab == true){
 			anim.SetBool ("attackEnemy", false);
+
 		}
 	}
 

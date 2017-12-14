@@ -8,7 +8,9 @@ public class player : MonoBehaviour {
 	public bool isBurning;
 	public bool isWet;
 	public Text healthText;
-	public bool hasKey;
+	public int enemiesKilled;
+	public Text enemyText;
+	public Text trapdoorText;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +20,10 @@ public class player : MonoBehaviour {
 	}
 
 	void Update () {
-		healthText.text = health.ToString();
+		healthText.text = "Health: " + health.ToString ();
+		enemyText.text = "Enemies Killed: " + enemiesKilled.ToString ();
+		if (enemiesKilled >= 5) {
+			trapdoorText.text = "Trapdoor Open";
+		}
 	}
 }
