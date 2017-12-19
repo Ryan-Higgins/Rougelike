@@ -235,6 +235,7 @@
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\fireTrap.cs" />
     <Compile Include="Assets\Scripts\jump.cs" />
+    <Compile Include="Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Scripts\LerpRaySingleMove.cs" />
     <Compile Include="Assets\Scripts\move.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
@@ -242,6 +243,7 @@
     <Compile Include="Assets\Scripts\RandomPrefabGenerator.cs" />
     <Compile Include="Assets\Scripts\roomSpawn.cs" />
     <Compile Include="Assets\Scripts\SimpleLevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\TrapDoor.cs" />
     <Compile Include="Assets\Scripts\trapSpawn.cs" />
     <Compile Include="Assets\Scripts\waterTrap.cs" />
   </ItemGroup>
