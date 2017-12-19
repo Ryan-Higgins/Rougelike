@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 2113883507168693334}
   m_Layer: 0
   m_Name: Room8 Walls & Invisibles
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1557594374274604}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 27d5c18b554871b46bdb385bb3558d78, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2021,6 +2021,6 @@ Tilemap:
   - serializedVersion: 1
     m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 135
+    m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 1
