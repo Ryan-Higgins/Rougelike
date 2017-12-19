@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPlayer: {fileID: 0}
+  test: 0
 --- !u!212 &212794879332172532
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -113,7 +114,7 @@ SpriteRenderer:
   m_SortingLayerID: 1417356997
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93603c0c4b832ef4eaf0244d178457cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 162222c97e520c24b8193f4af79ae86a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

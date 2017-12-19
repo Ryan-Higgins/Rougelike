@@ -27,7 +27,7 @@ public class move : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Wall" && stab == true){
-			anim.SetBool ("attackEnemy", false);
+			//anim.SetBool ("attackEnemy", false);
 
 		}
 	}

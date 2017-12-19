@@ -7,6 +7,8 @@ public class TrapDoorText : MonoBehaviour {
 	GameObject player;
 	player myPlayer;
 	public Text myText;
+	public GameObject objectToShow;
+	public bool showObject;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +21,11 @@ public class TrapDoorText : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (myPlayer.enemiesKilled >= 5) {
+			if (showObject) {
+				objectToShow.SetActive (true);
+			}
 			myText.text = "Trapdoor Open";
+
 		}
 	}
 }

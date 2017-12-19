@@ -10,6 +10,8 @@ public class EnemyMove : MonoBehaviour {
 	public float speedSet;
 	Rigidbody2D myRigidBody;
 	int count;
+	Animator anim;
+
 
 
 	// Use this for initialization
@@ -25,6 +27,7 @@ public class EnemyMove : MonoBehaviour {
 			ySpeed = Random.Range (-2f, 2f);
 		}
 
+		anim = GetComponentInChildren<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -35,8 +38,13 @@ public class EnemyMove : MonoBehaviour {
 		if (count > 240) {
 			count = 0;
 			direction *= -1;
+			Vector3 changeScale = transform.localScale;
+			changeScale.y *= -1;
+			transform.localScale = changeScale;
 		} else { 
 			count++;
 		}
+
+		//stab = Input.GetKey (KeyCode.Space);
 	}
 }
