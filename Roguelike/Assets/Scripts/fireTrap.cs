@@ -25,8 +25,9 @@ public class fireTrap : MonoBehaviour {
 	}
 
 	void Update() {
-		if (myPlayer.isBurning == true && count < 480) {
-			myPlayer.health -= damage * Time.deltaTime; 
+		if (myPlayer.isBurning == true) {
+			myPlayer.health -= damage * Time.deltaTime;
+
 			count++;
 		} else {
 			myPlayer.isBurning = false;
