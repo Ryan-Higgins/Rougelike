@@ -52,6 +52,6 @@ TagManager:
   - name: Player
     uniqueID: 1307655953
     locked: 0
-  - name: torch
-    uniqueID: 2757806909
+  - name: Foreground
+    uniqueID: 628847873
     locked: 0
