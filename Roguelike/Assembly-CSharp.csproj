@@ -53,10 +53,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\attack.cs" />
      <Compile Include="Assets\Scripts\CameraControllerTwo.cs" />
+     <Compile Include="Assets\Scripts\CanvasLoad.cs" />
+     <Compile Include="Assets\Scripts\EnemiesKilled.cs" />
      <Compile Include="Assets\Scripts\EnemyDamage.cs" />
      <Compile Include="Assets\Scripts\EnemyFollowIfClose.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\fireTrap.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\jump.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\LerpRaySingleMove.cs" />
@@ -65,10 +68,13 @@
      <Compile Include="Assets\Scripts\PlayerRotate.cs" />
      <Compile Include="Assets\Scripts\RandomPrefabGenerator.cs" />
      <Compile Include="Assets\Scripts\roomSpawn.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreText.cs" />
      <Compile Include="Assets\Scripts\SimpleLevelGenerator.cs" />
+     <Compile Include="Assets\Scripts\TrapDoor.cs" />
+     <Compile Include="Assets\Scripts\TrapDoorText.cs" />
      <Compile Include="Assets\Scripts\trapSpawn.cs" />
      <Compile Include="Assets\Scripts\waterTrap.cs" />
-     <Compile Include="Assets\TrapDoor.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>G:/Repositories/Rougelike/Roguelike/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
