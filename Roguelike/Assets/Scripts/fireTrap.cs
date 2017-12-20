@@ -8,6 +8,8 @@ public class fireTrap : MonoBehaviour {
 	public player myPlayer;
 	public int count;
 	const float damage = .02f;
+	public bool showFire;
+	public GameObject objectToShow;
 
 
 	// Use this for initialization
@@ -20,17 +22,22 @@ public class fireTrap : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D entity) {
 		if (entity.tag == "Player") {
 			myPlayer.isBurning = true;
-			gameObject.SetActive (false);
+			//gameObject.SetActive (false);
 		}
 	}
 
 	void Update() {
 		if (myPlayer.isBurning == true) {
 			myPlayer.health -= damage * Time.deltaTime;
-
+			if (showFire) {
+				objectToShow.SetActive (true);
+			}
 			count++;
 		} else {
 			myPlayer.isBurning = false;
+			if (showFire) {
+				objectToShow.SetActive (false);
+			}
 			count = 0;
 		}
 
