@@ -7,6 +7,8 @@ public class waterTrap : MonoBehaviour {
 	GameObject player;
 	player myPlayer;
 	int count;
+	public bool showWater;
+	public GameObject objectToShow;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +19,15 @@ public class waterTrap : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (myPlayer.isWet && count < 480) {
+		if (myPlayer.isWet && count < 80) {
+			if (showWater) {
+				objectToShow.SetActive (true);
+			}
 			count += 1;
 		} else {
+			if (showWater) {
+				objectToShow.SetActive (false);
+			}
 			myPlayer.isWet = false;
 			count = 0;
 		}
