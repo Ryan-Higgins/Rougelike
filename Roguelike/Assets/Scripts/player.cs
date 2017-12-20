@@ -13,6 +13,7 @@ public class player : MonoBehaviour {
 	public Text trapdoorText;
 	public bool loadScene; 
 	public string sceneToLoad;
+	public GameObject objectToShow;
 
 	// Use this for initialization
 	void Start () {
@@ -24,8 +25,9 @@ public class player : MonoBehaviour {
 	void Update () {
 		if (health <= 0) {
 			if (loadScene) {
+				health = 0;
 				SceneManager.LoadScene (sceneToLoad);
-
+				//objectToShow.SetActive (false);
 			}
 		}
 	}
