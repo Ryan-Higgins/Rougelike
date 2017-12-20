@@ -6606,6 +6606,8 @@ MonoBehaviour:
     type: 2}
   trapdoorText: {fileID: 114888969697896516, guid: 5621abdafac7ac246a106f636de49787,
     type: 2}
+  loadScene: 1
+  sceneToLoad: MenuScene
 --- !u!114 &1302704108
 MonoBehaviour:
   m_ObjectHideFlags: 0

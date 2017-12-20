@@ -34,5 +34,6 @@ public class Score : MonoBehaviour {
 	void Update () {
 		score +=  Time.deltaTime;
 		score *= multiplier;
+		if 
 	}
 }
