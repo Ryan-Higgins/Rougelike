@@ -22,9 +22,9 @@ public class EnemyMove : MonoBehaviour {
 		count = 0;
 
 		if (speedSet <= 0.5f) {
-			xSpeed = Random.Range (-2f, 2f);
+			xSpeed = Random.Range (-6f, 6f);
 		} else if (speedSet >= 0.5f) {
-			ySpeed = Random.Range (-2f, 2f);
+			ySpeed = Random.Range (-6f, 6f);
 		}
 
 		anim = GetComponentInChildren<Animator>();

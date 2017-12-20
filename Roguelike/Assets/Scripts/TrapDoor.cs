@@ -21,7 +21,7 @@ public class TrapDoor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter2D (Collider2D player) {
-		if (myPlayer.enemiesKilled >= 5) {
+		if (myPlayer.enemiesKilled >= 10) {
 			SceneManager.LoadScene (sceneToLoad);
 			myPlayer.enemiesKilled = 0;
 		}

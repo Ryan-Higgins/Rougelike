@@ -18,6 +18,8 @@ public class EnemiesKilled : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		player = GameObject.Find ("Player");
+		myPlayer = player.GetComponent<player> ();
 		myText.text = "Enemies Killed: " + myPlayer.enemiesKilled.ToString ();
 	}
 }
