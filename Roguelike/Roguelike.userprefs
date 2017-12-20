@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemiesKilled.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TrapDoorText.cs">
     <Files>
       <File FileName="Assets\Scripts\move.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\fireTrap.cs" Line="1" Column="1" />
@@ -12,7 +12,8 @@
       <File FileName="Assets\Scripts\attack.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Key.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\roomSpawn.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemiesKilled.cs" Line="4" Column="22" />
+      <File FileName="Assets\Scripts\EnemiesKilled.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TrapDoorText.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
