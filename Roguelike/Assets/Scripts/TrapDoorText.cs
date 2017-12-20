@@ -20,12 +20,16 @@ public class TrapDoorText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (myPlayer.enemiesKilled >= 5) {
+		player = GameObject.Find ("Player");
+		myPlayer = player.GetComponent<player> ();
+		if (myPlayer.enemiesKilled >= 10) {
 			if (showObject) {
 				objectToShow.SetActive (true);
 			}
 			myText.text = "Trapdoor Open";
 
+		} else {
+			myText.text = "";
 		}
 	}
 }
