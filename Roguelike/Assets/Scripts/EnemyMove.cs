@@ -20,14 +20,38 @@ public class EnemyMove : MonoBehaviour {
 		direction = 1;
 		speedSet = Random.value;
 		count = 0;
+		anim = GetComponentInChildren<Animator>();
 
 		if (speedSet <= 0.5f) {
 			xSpeed = Random.Range (-6f, 6f);
+			if (xSpeed < 0) {
+				anim.SetBool ("facingDown", false);
+				anim.SetBool ("facingUp", false);
+				anim.SetBool ("facingRight", false);
+				anim.SetBool ("facingLeft", true);
+			}
+			if (xSpeed > 0) {
+				anim.SetBool ("facingDown", false);
+				anim.SetBool ("facingUp", false);
+				anim.SetBool ("facingRight", false);
+				anim.SetBool ("facingLeft", false);
+			}
 		} else if (speedSet >= 0.5f) {
 			ySpeed = Random.Range (-6f, 6f);
+			if (ySpeed < 0) {
+				anim.SetBool ("facingDown", true);
+				anim.SetBool ("facingUp", false);
+				anim.SetBool ("facingRight", false);
+				anim.SetBool ("facingLeft", false);
+			}
+			if (ySpeed > 0) {
+				anim.SetBool ("facingDown", false);
+				anim.SetBool ("facingUp", true);
+				anim.SetBool ("facingRight", false);
+				anim.SetBool ("facingLeft", false);
+			}
 		}
 
-		anim = GetComponentInChildren<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -40,10 +64,14 @@ public class EnemyMove : MonoBehaviour {
 			direction *= -1;
 			Vector3 changeScale = transform.localScale;
 			changeScale.y *= -1;
+			changeScale.x *= -1;
 			transform.localScale = changeScale;
 		} else { 
 			count++;
 		}
+
+
+
 
 		//stab = Input.GetKey (KeyCode.Space);
 	}

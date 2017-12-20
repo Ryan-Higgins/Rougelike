@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\player.cs" />
      <Compile Include="Assets\Scripts\PlayerRotate.cs" />
+     <Compile Include="Assets\Scripts\pressEnter.cs" />
      <Compile Include="Assets\Scripts\roomSpawn.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScoreText.cs" />
