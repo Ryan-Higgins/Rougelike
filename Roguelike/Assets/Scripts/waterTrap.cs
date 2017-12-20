@@ -27,7 +27,7 @@ public class waterTrap : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D entity) {
 		if (entity.tag == "Player") {
-			gameObject.SetActive (false);
+			//gameObject.SetActive (false);
 			if (myPlayer.isBurning) {
 				myPlayer.isBurning = false;
 			}
